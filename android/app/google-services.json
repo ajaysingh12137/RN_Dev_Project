@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "464953625739",
+    "project_id": "rndevproject-b15f1",
+    "storage_bucket": "rndevproject-b15f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464953625739:android:aba9d922d8e333bb35188e",
+        "android_client_info": {
+          "package_name": "com.rn_dev_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464953625739-hdg9ltttmtmelk50ajpg449aipag4d4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rn_dev_project",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "464953625739-9s9ojdr2j07h6gmb397d00epgine2eg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQs76vPNccLbmpKc6IkG7QjAVFAAqhP-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464953625739-9s9ojdr2j07h6gmb397d00epgine2eg7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "464953625739-uqbrauinnb36s61odkgmc2krfqh4bhpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.RN-Dev-Project"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
