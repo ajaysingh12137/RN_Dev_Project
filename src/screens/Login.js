@@ -1,4 +1,4 @@
-import React, {useState, useRef, useNativeDriver} from 'react';
+import React, {useState, useRef} from 'react';
 import {
   Alert,
   Dimensions,
@@ -51,9 +51,13 @@ const Login = () => {
       setPasswordError('Password should be at least 6 characters');
       return;
     }
+
     try {
-      await auth().signInWithEmailAndPassword(email, password);
-      refRBSheet.current.open();
+      const isuserlogin = await auth().signInWithEmailAndPassword(
+        email,
+        password,
+      );
+      navigation.navigate('HomeScreen');
     } catch (error) {
       Alert.alert('Sign In Error', error.message);
       console.log(error);
@@ -67,9 +71,6 @@ const Login = () => {
   const handlePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
-
- 
-  
 
   return (
     <View style={styles.container}>
